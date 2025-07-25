@@ -1,12 +1,29 @@
-# React + Vite
+# 🧾 React Invoice Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and modern **Invoice Generator app** built using **React** and **Vite**, styled with **Bootstrap**.
+It lets you fill out invoice details, add multiple line items, calculate totals, and (optionally) export the invoice as a PDF.
 
-Currently, two official plugins are available:
+Live Deploy: https://invoice-generator-gjus.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What It Does
 
-## Expanding the ESLint configuration
+- Add "Bill From" and "Bill To" details
+- Fill in invoice number, dates, and payment terms
+- Dynamically add/edit/remove invoice items
+- Automatically calculates subtotal, tax, discount, and total
+- Clean, print-ready invoice layout
+- Export to PDF with one click (optional)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Used
+
+- React
+- Vite
+- React-Bootstrap
+- Bootstrap 5
+- React Icons
+- html2canvas
+- jsPDF
+
+
